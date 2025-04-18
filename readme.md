@@ -4,6 +4,8 @@ I got sick of having to enter my password and OTP every time I start the game on
 
 Note this is NOT SAFE™ as it requires your password and OTP secret be in a locally stored file named `.env` - the password is bad enough, but the OTP secret by definition means you're MFA is replicated in more than one location which is "bad news" - ensure you keep that secret as secure as you keep your phone.
 
+> if you are ignoring the above warning, the secret can be extracted from the QR code that SWTOR presents when you on-board a security key. If you already have a key, you will need to unregister and re-register to get this QR code.
+
 Other than that though, its all good. Finds the window by its title using the w32 api, then uses the api to move the mouse and send text codes before clicking login.
 
 Use:
