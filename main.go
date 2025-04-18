@@ -40,7 +40,7 @@ func main() {
 
 	const windowTitle = "Star Wars™: The Old Republic™"
 
-	// Relative positions within the window (adjust these!)
+	// Relative positions within the window
 	// These are percentages of window width/height from top-left corner
 
 	// usernameFieldPos := struct{ X, Y float32 }{0.05, 0.4} // note: assuming 'save account' is checked, the username (and only the username) will be prefilled
